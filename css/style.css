@@ -1,0 +1,149 @@
+:root{
+    --black: #000000;
+    --lightBlue: #00aaff;
+    --darkBlue: #001649;
+    --grey: #656565;
+    --white: #ffffff;
+    --orange: #ffcc00;
+
+
+    /* Paleta */
+    --pBlack: #2b2726;
+    --pBlue: #0a516d;
+    --pGreen: #018790;
+    --pLightGreen: #7dad93;
+    --pGrey: #bacca4;
+}
+@media screen and (max-width: 750px){
+    .main__imagem__card{
+        display: flex;
+        justify-items: center;
+    }
+}
+@media screen and (min-width: 750px){
+    
+    .main__proposito__{
+        display: flex;
+    }
+
+}
+
+/* header ----------------------------------------- */
+
+/* .header__{
+position: sticky;
+
+} */
+
+.header__ nav,.nav-link{
+    background-color: var(--pGreen) !important;
+    color: var(--pBlack) !important;
+}
+
+
+
+/* main ----------------------------------------- */
+
+/* sobre -----------------------------------------*/
+.main__{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main__proposito{
+    width: 900px;
+    text-justify: center;
+    background-color: var(--pLightGreen);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 25px;
+}
+.main__proposito h1{
+    text-align: center;
+}
+
+.main__proposito__descricao{
+    text-align: justify;
+}
+
+.main__proposito__{
+    margin-top: 30px;
+}
+
+
+.main__imagem__card div{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+/*Login --------------------------------------------------*/
+.inicio__login{
+    background-color: var(--pLightGreen);
+    border-radius: 15px;
+    width: 450px;
+    margin: 80px;
+    height: 450px;
+    box-shadow: 5px 5px var(--pGrey);
+}
+.inicio__login{
+    align-content: space-around;
+}
+
+
+.main__login__titulo{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 25px;
+}
+
+.main__login__input input{
+    width: 430px;;
+    justify-items: center;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+        
+}
+
+
+.inicio__login__button,.inicio__login__lembrese{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.entrar button{
+    background-color: var(--pGreen) !important;
+    border-color: var(--pGreen);
+}
+
+
+/* index -------------------------------------------*/
+
+.dropdown-center button{
+    background-color: var(--pGreen);
+    border-color: var(--pGreen);
+    color: var(--pBlack);
+}
+
+
+/* footer ----------------------------------------- */
+
+.footer__{
+    display: flex;
+    background-color: var(--pGreen);
+    justify-content: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.imagem__footer{
+    width: 35px;
+    margin-left: 5px;
+}
